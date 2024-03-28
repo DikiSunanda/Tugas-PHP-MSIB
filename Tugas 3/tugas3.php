@@ -69,11 +69,11 @@ $jumlahSiswa = count($ar_siswa);
 
 
 $keteranganz = [
+    'Jumlah Mahasiswa' => $jumlahSiswa,
     'Nilai Tertinggi' => $nilaiTertinggi,
     'Nilai Terendah' => $nilaiTerendah,
     'Rata - rata Nilai' => $rata_rata,
-    'Jumlah Nilai' => $total_nilai,
-    'Jumlah Siswa' => $jumlahSiswa
+    'Jumlah Nilai Keseluruhan' => $total_nilai
 ];
 
 ?>
@@ -98,10 +98,13 @@ $keteranganz = [
     <div class="judul mt-4 col-12">
         <figure class="text-center">
             <blockquote class="blockquote">
+                <b>Diki Sunanda</b>
+            </blockquote>
+            <blockquote class="blockquote">
                 <p>Data Nilai Ujian</p>
             </blockquote>
             <figcaption class="blockquote-footer">
-                Nilai Hasil Ujian<cite title="Source Title">&nbsp;Semester 6</cite>
+                Nilai Hasil Ujian Tengah Semester<cite title="Source Title">&nbsp;Semester 6</cite>
             </figcaption>
         </figure>
     </div>
